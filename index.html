@@ -1,0 +1,730 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon" />
+    <title>Cláudio Borrely Júnior</title>
+  <script defer src="assets/js/app.js"></script><link href="assets/css/index.css" rel="stylesheet"></head>
+  <body>
+    <!-- header section -->
+
+    <div id="grain"></div>
+
+    <!-- background -->
+    <canvas id="background-canvas"></canvas>
+
+    <header class="header">
+      <div class="container-fluid d-flex align-items-center justify-content-between">
+        <a href="index.html">
+          <img src="./assets/images/logo.png" alt="logo" />
+        </a>
+
+        <button class="bg-transparent border-0 d-xl-none">
+          <div class="nav-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </button>
+      </div>
+    </header>
+
+    <!-- navigation -->
+    <nav class="navigation" id="navigation">
+      <img src="./assets/images/logo.png" class="mb-4 d-xl-none" alt="logo" />
+      <ul>
+        <li class="nav-link">
+          <a href="#top" class="active"><span>01</span> <span class="text">top</span> </a>
+        </li>
+        <li class="nav-link">
+          <a href="#about_me"><span>02</span> <span class="text">Sobre Mim</span> </a>
+        </li>
+        <li class="nav-link">
+          <a href="#services"><span>03</span> <span class="text">Formação</span> </a>
+        </li>
+        <li class="nav-link">
+          <a href="#attainments"><span>04</span> <span class="text">Habilidades</span> </a>
+        </li>
+        <li class="nav-link">
+          <a href="#how_i_work"><span>05</span> <span class="text">Como eu Trabalho</span> </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="#contact"><span>06</span> <span class="text">Contato</span> </a>
+        </li>
+      </ul>
+      <div class="contact">
+        <a href="mailto:claudio.borrely@gmail.com">claudio.borrely@gmail.com</a>
+        <a href="tel:+55 11 96597 0387">11 96597 0387</a>
+      </div>
+    </nav>
+    <div class="nav-overlay d-xl-none"></div>
+
+    <!-- main content -->
+    <main class="container-fluid">
+      <div class="row gx-xxl-6">
+        <div class="col col-xl-9" data-bs-spy="scroll" data-bs-target="#navigation">
+          <!-- hero -->
+          <section id="top" class="hero">
+            <div class="row gx-4 align-items-center">
+              <div class="col-12 col-md-6 col-xl-6 hero-content">
+                <div>
+                  <h4 class="text-uppercase freelancer">Busco estágio como</h4>
+                  <h1 class="text-uppercase overflow-hidden developer" id="typewriter"></h1>
+                  <p class="description">iniciante, em transição de carreira</p>
+                </div>
+                <div class="d-flex gap-4">
+                  <a href="#projects" class="btn work-btn text-capitalize btn-secondary">conheça alguns projetos</a>
+                  <a href="#contact" class="btn contact-btn text-capitalize btn-outline-secondary">vamos conversar!</a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 offset-md-1 offset-xxl-2 col-xl-4">
+                <div class="img-wrapper">
+                  <div class="waves-top">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <img class="img-fluid rounded-circle hero-img" src="./assets/images/hero.png" alt="foto cláudio" />
+                  <div class="waves-bottom">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <a href="#about_me" class="d-flex gap-4 align-items-center next-chapter mt-5">
+                  <span class="page">02/06</span>
+                  <span class="next">Próximo Capítulo</span>
+                  <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
+                </a>
+              </div>
+            </div>
+          </section>
+
+          <!-- about me -->
+          <section id="about_me" class="about section">
+            <span class="section-title-overlay-text">Sobre Mim</span>
+            <div class="section-title text-capitalize">
+              <h4>Um pouco sobre mim</h4>
+              <h2>Minha Tragetória</h2>
+            </div>
+            <div class="row mb-4 mb-lg-5 align-items-center">
+              <div class="col-lg-7 col-xl-8 about-desc">
+                <h2>Do Marketing para a T.I</h2>
+                <p class="desc">
+                  Profissional com sólida trajetória como gestor sênior nas áreas de Marketing e Comercial, liderando times e estratégias orientadas a resultados. Estou em transição de carreira para o setor de tecnologia, impulsionado por uma paixão genuína por inovação e desenvolvimento de soluções digitais. Acredito que programação e inteligência artificial são pilares do futuro dos negócios, 
+                  e minha mudança reflete a busca por unir visão estratégica com as ferramentas tecnológicas que transformarão o mercado nos próximos anos.
+                </p>
+                <div class="row contact">
+                  <div class="col-sm-4">
+                    <p>Email:</p>
+                    <a href="mailto:claudio.borrely@gmail.com">claudio.borrely@gmail.com</a>
+                  </div>
+                  <div class="col-sm-4">
+                    <p>Nascimento:</p>
+                    <span>21 de Março de 1988</span>
+                  </div>
+                  <div class="col-sm-4">
+                    <p>Natural de:</p>
+                    <span>São Paulo, Brasil</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-5 col-xl-4">
+                <div class="experience-card">
+                  <div class="card-inner"></div>
+                  <div>
+                    <div class="numbers">
+                      <span class="number-outline-one">15</span>
+                      <span class="number-outline-two">15</span>
+                      <span class="number-main">15</span>
+                    </div>
+                    <p>Anos de Experiência</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <a href="#services" class="d-flex gap-4 align-items-center next-chapter">
+                <span class="page">03/06</span>
+                <span class="next">Próximo Capítulo</span>
+                <span class="icon"><i class="ph ph-arrow-elbow-right-down"></i></span>
+              </a>
+            </div>
+          </section>
+
+          <!-- services -->
+          <section id="services" class="services section position-relative">
+            <span class="section-title-overlay-text">Meus Cursos</span>
+            <div class="section-title text-capitalize">
+              <h4>Cursos e Certificações</h4>
+              <h2>O que eu já estudei</h2>
+            </div>
+            <div dir="ltr" class="swiper service-swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <h2>01</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>DEV Backend</h4>
+                      <ul class="service-list">
+                        <li><i class="ph ph-caret-double-right"></i> Python - Udemy (em andamento)</li>
+                        <li><i class="ph ph-caret-double-right"></i> CC50 - Harvard (em andamento)</li>
+                        <li><i class="ph ph-caret-double-right"></i> Desenvolvimento de Sistemas - FMU (em andamento)</li>
+                        <li><i class="ph ph-caret-double-right"></i> Intensivão de Python - Hashtag</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <h2>02</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>Cloud Computing</h4>
+                      <ul class="service-list">
+                        <li><i class="ph ph-caret-double-right"></i> Docker do Zero - Jornada de Dados</li>
+                        <li><i class="ph ph-caret-double-right"></i> Introdução ao Cloud 101 - AWS</li>
+                        <li><i class="ph ph-caret-double-right"></i> Introdução a Armazenamento - AWS</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <h2>03</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>IA e Machine Learning </h4>
+                      <ul class="service-list">
+                        <li><i class="ph ph-caret-double-right"></i> Python para IA - ASIMOV (em andamento)</li>
+                        <li><i class="ph ph-caret-double-right"></i> Machine Learning Fundations - AWS</li>
+                        <li><i class="ph ph-caret-double-right"></i> Tópicos em Machine Learning - FGV</li>
+
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide overflow-visible p-3">
+                  <div class="service-card">
+                    <div class="card-inner"></div>
+                    <div class="content">
+                      <div class="number-circle">
+                        <div class="waves-top-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                        <h2>04</h2>
+                        <div class="waves-bottom-sm">
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                          <span></span>
+                        </div>
+                      </div>
+                      <h4>Frontend</h4>
+                      <ul class="service-list">
+                        <li><i class="ph ph-caret-double-right"></i> Frontend (HTML, CSS e JS) - Rocketseat</li>
+                        <li><i class="ph ph-caret-double-right"></i> Princípios do Web Design - Rock Content </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="col-12">
+              <a href="#attainments" class="d-flex gap-4 align-items-center next-chapter">
+                <span class="page">04/06</span>
+                <span class="next">Próximo Capítulo</span>
+
+                <i class="ph ph-arrow-elbow-right-down"></i>
+              </a>
+            </div>
+          </section>
+
+          <!-- attainments -->
+          <section id="attainments" class="attainments section position-relative">
+            <span class="section-title-overlay-text">Trilha de Aprendizado</span>
+            <div class="row pb-120 design-row">
+              <div class="col-lg-4">
+                <div class="section-title-sm">
+                  <div class="top">
+                    <h2>Dev Skills</h2>
+                    <span>Iniciando meus aprendizados em</span>
+                  </div>
+                  <span class="serial">01.-</span>
+                </div>
+              </div>
+              <div class="col-12 col-lg-8">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="design-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">Backend e Cloud</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="branding-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">IA e Machine Learning</button>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="d-flex flex-column align-items-center mb-4">
+                      <div class="ecommerce-chart mb-4"></div>
+                      <button class="btn btn-outline-secondary px-5">Frontend</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row pb-120 developer-row">
+              <div class="col-md-5 col-lg-4 offset-sm-1 offset-lg-2">
+                <div class="section-title-sm">
+                  <div class="top">
+                    <h2>Dev Skills</h2>
+                    <span>Habilidades Iniciais:</span>
+                  </div>
+                  <span class="serial">02.-</span>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="d-flex flex-column gap-3">
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>Python</span>
+                      <span>5%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="8%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>LLM</span>
+                      <span>2%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="3%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>N8N</span>
+                      <span>11%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="11%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>HTML</span>
+                      <span>30%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="30%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>CSS</span>
+                      <span>15%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="15%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>AWS (EC2, S2, Lambda)</span>
+                      <span>6%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="6%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>Docker</span>
+                      <span>7%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="7%"></div>
+                    </div>
+                  </div>
+                  <div class="skill">
+                    <div class="d-flex justify-content-between align-items-center">
+                      <span>GITHUB</span>
+                      <span>6%</span>
+                    </div>
+                    <div class="progress">
+                      <div class="progress-bar ninety" data-width="6%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <a href="#how_i_work" class="d-flex gap-4 align-items-center next-chapter">
+                <span class="page">05/06</span>
+                <span class="next">Próximo Capítulo</span>
+
+                <i class="ph ph-arrow-elbow-right-down"></i>
+              </a>
+            </div>
+          </section>
+
+          <!-- how i work -->
+          <section id="how_i_work" class="how-i-work section position-relative">
+            <span class="section-title-overlay-text">Competências amplas</span>
+            <div class="section-title text-capitalize">
+              <h4>Como eu trabalho</h4>
+              <h2>Soft + Core Skills</h2>
+            </div>
+            <div class="row pb-60 px-4 process-list justify-content-center">
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>01.</p>
+                  <p>Raciocínio lógico</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>02.</p>
+                  <p>Fundamentos</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>03.</p>
+                  <p>Resolução</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>04.</p>
+                  <p>Produto</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle position-absolute w-100 h-100"></span>
+                <div>
+                  <p>05.</p>
+                  <p>Colaboração</p>
+                </div>
+              </div>
+              <div class="process col-6">
+                <span class="circle-even position-absolute w-100 h-100"></span>
+                <div>
+                  <p>06.</p>
+                  <p>Adaptabilidade</p>
+                </div>
+              </div>
+            </div>
+            <div class="more-info d-flex flex-wrap align-items-center gap-5 gap-md-3">
+              <p>Quer me conhecer melhor? Entre em contato</p>
+              <span class="line"></span>
+              <a href="https://wa.me/5511965970387" class="arrow-down position-relative">
+                <div class="waves-top-md">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+                <img src="./assets/images/whatapp.png" alt="" />
+                <div class="waves-bottom-md">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </div>
+              </a>
+            </div>
+          <!-- contact -->
+          <section id="contact" class="contact section position-relative">
+            <span class="section-title-overlay-text">Contato</span>
+            <div class="section-title text-capitalize">
+              <h4>Vamos marcar uma entrevista?</h4>
+              <h2>Entre em contato</h2>
+            </div>
+            <div class="row pb-120 contact-items">
+              <div class="row g-4">
+                <div class="col-sm-6 col-xl-4 col-xxl-3">
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="ph ph-phone-call"></i>
+                    </div>
+                    <p>11 96597-0387</p>
+                  </div>
+                </div>
+                <div class="col-sm-6 col-xl-4 col-xxl-3">
+                  <div class="contact-item">
+                    <div class="icon-box">
+                      <i class="ph ph-envelope-open"></i>
+                    </div>
+                    <p>claudio.borrely@gmail.com</p>
+                  </div>
+                </div>
+                <div class="row mt-3">
+  <div class="col-12">
+    <div class="d-flex gap-3 social-icons">
+      <a href="https://www.linkedin.com/in/claudio-borrely-397b61209/">
+        <i class="ph ph-linkedin-logo"></i>
+      </a>
+    </div>
+  </div>
+</div>
+            <form id="contact-form" class="contact-form" action="https://formsubmit.co/claudio.borrely@gmail.com" method="POST">
+              <h4>Me envie uma mensagem</h4>
+            
+              <!-- Mensagem de feedback -->
+              <div id="form-message" style="display:none; color: green; margin-bottom: 10px;">
+                Obrigado! Sua mensagem foi enviada com sucesso.
+              </div>
+            
+              <div class="row g-4 g-xl-5">
+                <div class="col-sm-6">
+                  <label for="name">Nome</label>
+                  <input type="text" id="user_name" name="user_name" placeholder="Seu Nome" required />
+                </div>
+                <div class="col-sm-6">
+                  <label for="email">Email</label>
+                  <input type="email" id="user_email" name="user_email" placeholder="Seu E-mail" required />
+                </div>
+                <div class="col-12">
+                  <label for="message">Mensagem</label>
+                  <textarea id="message" name="message" placeholder="Sua mensagem"></textarea>
+                </div>
+            
+                <input type="text" name="_honey" style="display:none">
+                <input type="hidden" name="_captcha" value="false">
+            
+                <div class="col-12">
+                  <button type="submit" id="submit-btn" class="submit-btn position-relative">
+                    <div class="waves-top-md">
+                      <span></span><span></span><span></span><span></span>
+                    </div>
+                    Enviar
+                    <div class="waves-bottom-md">
+                      <span></span><span></span><span></span><span></span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+            </form>
+            
+            <div class="col mt-5 pt-5 next-chapter">
+              <span class="page">06/06</span>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- color switcher -->
+    <div class="color-switcher">
+      <button class="color-switcher-btn">
+        <i class="ph ph-gear-six"></i>
+      </button>
+      <div class="pallets d-flex flex-column align-items-center gap-4 justify-content-center">
+        <div class="d-flex flex-column gap-3">
+          <div class="d-flex gap-3">
+            <button style="background-color: #ffdb67" class="color-btn" data-color="255, 219, 103"></button>
+            <button style="background-color: #ff91fb" class="color-btn" data-color="255, 145, 251"></button>
+            <button style="background-color: #fdbb2e" class="color-btn" data-color="253, 187, 46"></button>
+          </div>
+          <div class="d-flex gap-3">
+            <button style="background-color: #eee8aa" class="color-btn" data-color="238, 232, 170"></button>
+            <button style="background-color: #00ffff" class="color-btn" data-color="0, 255, 255"></button>
+            <button style="background-color: #00fe9c" class="color-btn" data-color="0, 254, 156"></button>
+          </div>
+        </div>
+        <div class="d-flex gap-3 justify-content-between">
+          <button class="px-3 ltr py-2 border-0">LTR</button>
+          <button class="px-3 rtl py-2 border-0">RTL</button>
+        </div>
+        <div class="d-flex align-items-center gap-3">
+          <label for="grained"> Grained BG </label>
+          <input type="checkbox" id="grained" class="grained-checkbox" />
+        </div>
+      </div>
+    </div>
+
+    <!-- project modal -->
+    <div class="modal fade" id="project-details" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="modal-body">
+            <button type="button" class="btn-close fs-3" data-bs-dismiss="modal" aria-label="Close">
+              <i class="ph ph-x"></i>
+            </button>
+            <img src="./assets/images/edumaster-big.png" class="w-100 img-fluid project-details-img rounded-3 mb-3 mb-xl-4" alt="" />
+            <div class="row gx-4 gy-4 gy-md-0">
+              <div class="col-md-7 col-xl-9">
+                <h1 class="mb-3 fw-semibold" id="project-title">EduMaster</h1>
+                <p class="mb-4 mb-xl-5">Designed and developed a fully functional e-commerce platform for a startup specializing in handcrafted goods. The project involved creating a visually appealing user interface, and ensuring an overall smooth shopping experience.</p>
+                <h2 class="mb-3 fw-semibold">Project Goals</h2>
+                <p class="mb-4">Developed a website for a non-profit organization aimed at raising awareness and funds for environmental conservation. The site features educational content, event management, and donation capabilities.</p>
+                <ul class="list-plus">
+                  <li>Create a visually cohesive blog that aligns with the influencer's personal brand.</li>
+                  <li>Implement a secure and reliable payment gateway.</li>
+                  <li>Ensure the website is responsive and performs well across all devices.</li>
+                  <li>Optimize the site for search engines to increase organic traffic.</li>
+                </ul>
+              </div>
+              <div class="col-md-5 col-xl-3">
+                <div class="right-bar">
+                  <div>
+                    <p class="mb-1">Client</p>
+                    <h6 class="fw-semibold">Mashroom</h6>
+                  </div>
+                  <div>
+                    <p class="mb-1">Category</p>
+                    <h6 class="fw-semibold">User Experience</h6>
+                  </div>
+                  <div>
+                    <p class="mb-1">Start Date</p>
+                    <h6 class="fw-semibold">02/08/2023</h6>
+                  </div>
+                  <div>
+                    <p class="mb-1">End Date</p>
+                    <h6 class="fw-semibold">01/03/2024</h6>
+                  </div>
+                  <div>
+                    <p class="mb-1">Tools</p>
+                    <h6 class="fw-semibold">Adobe Xd, Figma</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h3 class="fw-medium mb-2">Challenges and Solutions</h3>
+              <p class="mb-4">
+                One of the main challenges was optimizing the website's load time while maintaining high-quality images of the products. To address this, I implemented lazy loading for images and used optimized image formats, resulting in a faster, smoother browsing experience without compromising
+                visual quality.
+              </p>
+              <div class="row gx-4 gy-4 gy-md-0 mb-4 mb-xl-5 pb-3">
+                <div class="col-md-6">
+                  <img src="./assets/images/project-details-1.png" class="w-100 img-fluid rounded-3" alt="" />
+                </div>
+                <div class="col-md-6">
+                  <img src="./assets/images/project-details-2.png" class="w-100 img-fluid rounded-3" alt="" />
+                </div>
+              </div>
+              <h4 class="mb-3">Key Features:</h4>
+              <p class="mb-4">Developed a website for a non-profit organization aimed at raising awareness and funds for environmental conservation. The site features educational content, event management, and donation capabilities.</p>
+              <ul class="bullet mb-4 pb-3 mb-xl-5">
+                <li>Custom Blog Layouts: Designed multiple blog layouts to cater to different content types, including image-heavy posts and long-form articles.</li>
+                <li>Content Management System: Integrated WordPress for easy content updates and management, allowing the influencer to focus on creating content without technical hurdles.</li>
+                <li>Responsive Design: Ensured the blog is fully responsive, providing a seamless experience on smartphones, tablets, and desktops.</li>
+                <li>SEO and Social Media Integration: Implemented SEO best practices and integrated social media sharing buttons, making it easy for readers to share posts across platforms.</li>
+                <li>Newsletter Signup: Added a newsletter signup form to help the influencer grow their email list and maintain engagement with followers.</li>
+              </ul>
+              <div class="outcome">
+                <h5 class="mb-3">Outcome:</h5>
+                <p>The blog quickly gained traction, attracting a growing audience and enhancing the influencer’s online presence. The user-friendly design and seamless social media integration led to higher engagement rates and increased content sharing.</p>
+              </div>
+              <form class="contact-form full-width">
+                <h3 class="mb-3">Have project in mind? Let's discuss</h3>
+                <p class="mb-4 mb-xl-5 pb-2">Get in touch with us to see how we can help you with your project</p>
+                <div class="row g-4 g-xl-5">
+                  <div class="col-sm-6 contact-input">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="user_name" placeholder="Your name" required />
+                  </div>
+                  <div class="col-sm-6 contact-input">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="user_email" placeholder="Your e-mail" required />
+                  </div>
+                  <div class="col-12 contact-input">
+                    <label for="service">Service</label>
+                    <input name="service" placeholder="Your Serivice" />
+                  </div>
+                  <div class="col-12 contact-input">
+                    <label for="message">Message</label>
+                    <textarea name="message" placeholder="Your message"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="submit-btn position-relative">
+                      <div class="waves-top-md">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                      submit
+                      <div class="waves-bottom-md">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                      </div>
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
